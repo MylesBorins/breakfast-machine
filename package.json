@@ -1,0 +1,28 @@
+{
+  "name": "breakfast-machine",
+  "version": "0.0.1",
+  "description": "automate your scripts with a soundtrack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Pee-Wee",
+    "Baudio"
+  ],
+  "author": "Myles Borins <myles@famo.us>",
+  "license": "ISC",
+  "preferGlobal": "true",
+  "bin": {
+    "breakfast-machine": "bin/cmd.js"
+  },
+  "directories": {
+    "bin": "./bin",
+    "audio": "./audio"
+  },
+  "dependencies": {
+    "lame": "^1.1.0",
+    "minimist": "^0.2.0",
+    "speaker": "^0.2.1"
+  }
+}
