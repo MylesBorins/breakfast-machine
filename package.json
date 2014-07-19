@@ -1,6 +1,6 @@
 {
   "name": "breakfast-machine",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "automate your scripts with a soundtrack",
   "main": "index.js",
   "scripts": {
