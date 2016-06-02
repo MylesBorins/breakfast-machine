@@ -11,7 +11,8 @@
     "Danny Elfman",
     "Dum dum dum dum dum dum dum dum dum... dum dum dum dum dum dum dum dum dum"
   ],
-  "author": "Myles Borins <myles@famo.us>",
+  "author": "Myles Borins <myles.borins@gmail.com>",
+  "repository": "https://github.com/thealphanerd/breakfast-machine",
   "license": "ISC",
   "preferGlobal": "true",
   "bin": {
@@ -23,7 +24,7 @@
   },
   "dependencies": {
     "lame": "^1.1.0",
-    "minimist": "^0.2.0",
-    "speaker": "^0.2.1"
+    "minimist": "^1.2.0",
+    "speaker": "^0.3.0"
   }
 }

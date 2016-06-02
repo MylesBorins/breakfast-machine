@@ -10,13 +10,13 @@ var args = argv._.slice(1);
 
 var songPath = path.join(__dirname, '../index.js');
 
-var child = spawn(command, args);
 var playSong = fork(songPath, {
   silent: true
 });
 
-child.stdout.pipe(process.stdout);
-child.stderr.pipe(process.stderr);
+var child = spawn(command, args, {
+  stdio: 'inherit'
+});
 
 child.on('close', function () {
   playSong.kill();
