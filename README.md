@@ -1,3 +1,3 @@
 # DEPRECATED
 
-New home --> http://github.com/thealphanerd/musa
+New home --> http://github.com/mylesborins/musa
